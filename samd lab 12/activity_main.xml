@@ -27,3 +27,41 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#7bae16"
+android:orientation="vertical" > 
+<EditText 
+ android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/amount"
+android:hint="Amount"
+ 
+ /> 
+ <EditText 
+ android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/years"
+android:hint="Years"
+ 
+ /> 
+ <EditText 
+ android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:id="@+id/rate"
+android:hint="rate"
+ /> 
+ 
+<Button 
+ android:id="@+id/getActivity"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Calculate"
+ /> 
+ 
+<TextView
+ android:layout_width="fill_parent"
+android:layout_height="match_parent"
+android:id="@+id/total"
+ />
